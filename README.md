@@ -60,15 +60,39 @@ This project is both a **portfolio showcase** and a **cultural audit** — revea
 ## 📂 Folder Structure
 
 ```
-gym-aesthetic-trap/
+GYM-AESTHETIC-TRAP/
 │
-├── data/                      # Raw & processed datasets
-├── visuals/                   # Saved graphs and images
-├── 1_gym_inflation.ipynb      # Income vs. gym cost analysis
-├── 2_google_trend_analysis.ipynb  # Google Trends and influencer death study
-├── 3_reddit_nlp.ipynb         # Reddit sentiment and topic modeling
-├── README.md
-└── requirements.txt
+├── data/                        # Cleaned CSV datasets used across notebooks
+│   ├── google_trends_aesthetic.csv
+│   ├── google_trends_health.csv
+│   ├── google_trends_health_advanced.csv
+│   ├── google_trends_sarms.csv
+│   ├── google_trends_steroids.csv
+│   ├── gym_costs.csv
+│   ├── income_data.csv
+│   ├── influencer_death.csv
+│   └── reddit_posts_raw.csv
+│
+├── docs/                        # GitHub Pages website content
+│   ├── 1_gym_inflation.html
+│   ├── 2_google_trend_analysis.html
+│   ├── 3_reddit_NLP.html
+│   ├── index.html               # Landing page with summaries and navigation
+│   └── banner_overlay.png       # Hero image on landing page
+│
+├── notebooks/                   # Source Jupyter notebooks for each analysis chapter
+│   ├── 1_gym_inflation.ipynb
+│   ├── 2_google_trend_analysis.ipynb
+│   └── 3_reddit_NLP.ipynb
+│
+├── visuals/                     # Saved plots and visualizations (optional)
+│
+├── banner.png                   # Alternate or source banner asset
+├── environment.yml              # Conda environment with dependencies
+├── requirements.txt             # pip-style dependency list
+├── README.md                    # Project overview and structure (this file)
+└── report.md                    # Written long-form report or article version
+
 ```
 
 ---
