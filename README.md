@@ -1,6 +1,11 @@
 
 # 🏋️‍♂️ The Gym Aesthetic Trap
 
+## 🔗 Live Demo
+
+Check out the live project here:  
+👉 [Gym Aesthetic Trap – GitHub Pages](https://ramidoz.github.io/gym-aesthetic-trap)
+
 ## 📘 Project Overview
 
 This project explores how modern fitness culture is shifting from health-driven goals to aesthetic obsession — backed by data, trends, influencer outcomes, and real-world conversations.
@@ -67,6 +72,61 @@ gym-aesthetic-trap/
 ```
 
 ---
+
+<details>
+<summary>🧾 <strong>Methodology: Influencer Mortality Dataset</strong></summary>
+
+<br>
+
+This dataset was manually compiled through extensive research on publicly available sources about well-known figures in the fitness, bodybuilding, and online influencer communities who passed away prematurely.
+
+It focuses on individuals whose deaths were directly or indirectly linked to enhancement practices, appearance-driven risk-taking, or mental health strains within performance culture.
+
+---
+
+### 📰 Sources Used
+
+- News articles from reputable media (e.g., BBC, NYT, Washington Post)  
+- Autopsy reports and public medical statements (when available)  
+- Documentaries (e.g., *Supersize She*, *Generation Iron*)  
+- Bodybuilding databases (NPC News Online, Muscle Memory)  
+- Social media accounts, tributes, farewell posts  
+- Interviews from coaches, family, or medical professionals  
+- Fitness forums like Reddit r/bodybuilding, T-Nation, and Bodybuilding.com (used for anecdotal context — clearly marked)
+
+---
+
+### ✅ Inclusion Criteria
+
+- Verified **public figure** (athlete, influencer, model)  
+- **Premature death** (well below average life expectancy)  
+- Documented or widely suspected **enhancement history or appearance-risk behavior**  
+- Deaths between **1990 and 2024**  
+- Global scope — no geographic restriction
+
+---
+
+### 📊 Data Points Collected
+
+- Full name  
+- Date of birth & death  
+- Age at death  
+- Nationality  
+- Profession/public role  
+- PED involvement (confirmed/suspected)  
+- Cause of death (based on available evidence)  
+- Notable public/media/social presence  
+
+---
+
+### ⚠️ Limitations
+
+- Some causes of death remain speculative due to lack of public medical data  
+- Social media follower counts are approximated using public archives  
+- Suspected PED use is noted where clearly discussed, but **not confirmed without official sources**
+
+</details>
+
 
 ## 🧠 Author
 
