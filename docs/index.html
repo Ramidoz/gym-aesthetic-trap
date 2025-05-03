@@ -10,41 +10,67 @@
             margin: 0;
             padding: 0;
             color: #333;
+            animation: fadeIn 1.5s ease;
         }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
         header {
             background: #1f2937;
             color: white;
             padding: 40px 20px;
             text-align: center;
+            animation: fadeInDown 1s ease;
         }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         header h1 {
             font-size: 2.8em;
             margin-bottom: 10px;
         }
+
         header p {
             font-size: 1.2em;
             max-width: 800px;
             margin: 0 auto;
             color: #d1d5db;
         }
+
         .section {
             padding: 40px 20px;
             max-width: 900px;
             margin: auto;
+            animation: fadeIn 2s ease;
         }
+
         .section h2 {
             color: #111827;
             font-size: 1.8em;
         }
+
         .section p {
             font-size: 1.05em;
             line-height: 1.6em;
             margin-top: 10px;
         }
+
+        ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
         .btn-container {
             text-align: center;
             margin-top: 40px;
         }
+
         a.button {
             display: inline-block;
             margin: 10px;
@@ -55,17 +81,21 @@
             border-radius: 6px;
             font-weight: bold;
             font-size: 1em;
-            transition: background 0.3s ease;
+            transition: background 0.3s ease, transform 0.3s ease;
         }
+
         a.button:hover {
             background-color: #374151;
+            transform: scale(1.05);
         }
+
         footer {
             background: #f3f4f6;
             text-align: center;
             padding: 20px;
             font-size: 0.9em;
             color: #6b7280;
+            animation: fadeIn 2.5s ease;
         }
     </style>
 </head>
@@ -93,9 +123,9 @@
 <div class="section">
     <h2>🧠 Explore the Chapters</h2>
     <div class="btn-container">
-        <a class="button" href="1_gym_inflation.html" target="_blank">📈 Gym Inflation vs Income</a>
-        <a class="button" href="2_google_trend_analysis.html" target="_blank">🔍 Google Trends & Influencer Deaths</a>
-        <a class="button" href="3_reddit_NLP.html" target="_blank">💬 Reddit NLP & Topic Modeling</a>
+        <a class="button" href="1_gym_inflation.html">📈 Gym Inflation vs Income</a>
+        <a class="button" href="2_google_trend_analysis.html">🔍 Google Trends & Influencer Deaths</a>
+        <a class="button" href="3_reddit_nlp.html">💬 Reddit NLP & Topic Modeling</a>
     </div>
 </div>
 
@@ -113,4 +143,3 @@
 
 </body>
 </html>
-"""
