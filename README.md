@@ -1,6 +1,11 @@
 
 # 🏋️‍♂️ The Gym Aesthetic Trap
 
+## 🔗 Live Demo
+
+Check out the live project here:  
+👉 [Gym Aesthetic Trap – GitHub Pages](https://ramidoz.github.io/gym-aesthetic-trap)
+
 ## 📘 Project Overview
 
 This project explores how modern fitness culture is shifting from health-driven goals to aesthetic obsession — backed by data, trends, influencer outcomes, and real-world conversations.
